@@ -12,6 +12,9 @@
 		AF384AED21C04DFA00592BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF384AEB21C04DFA00592BA5 /* Main.storyboard */; };
 		AF384AEF21C04DFA00592BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF384AEE21C04DFA00592BA5 /* Assets.xcassets */; };
 		AF384AF221C04DFA00592BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF384AF021C04DFA00592BA5 /* LaunchScreen.storyboard */; };
+		AF384AFA21C04EC700592BA5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF384AF921C04EC700592BA5 /* TableViewController.swift */; };
+		AF384AFC21C04F0300592BA5 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF384AFB21C04F0300592BA5 /* DataBase.swift */; };
+		AF384AFE21C05F5300592BA5 /* Disciplina.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF384AFD21C05F5300592BA5 /* Disciplina.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AF384AEE21C04DFA00592BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF384AF121C04DFA00592BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF384AF321C04DFA00592BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF384AF921C04EC700592BA5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AF384AFB21C04F0300592BA5 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		AF384AFD21C05F5300592BA5 /* Disciplina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disciplina.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				AF384AEE21C04DFA00592BA5 /* Assets.xcassets */,
 				AF384AF021C04DFA00592BA5 /* LaunchScreen.storyboard */,
 				AF384AF321C04DFA00592BA5 /* Info.plist */,
+				AF384AF921C04EC700592BA5 /* TableViewController.swift */,
+				AF384AFB21C04F0300592BA5 /* DataBase.swift */,
+				AF384AFD21C05F5300592BA5 /* Disciplina.swift */,
 			);
 			path = TrabalhoPratico;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF384AFE21C05F5300592BA5 /* Disciplina.swift in Sources */,
 				AF384AEA21C04DFA00592BA5 /* ViewController.swift in Sources */,
+				AF384AFA21C04EC700592BA5 /* TableViewController.swift in Sources */,
+				AF384AFC21C04F0300592BA5 /* DataBase.swift in Sources */,
 				AF384AE821C04DFA00592BA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
